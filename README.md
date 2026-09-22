@@ -10,8 +10,12 @@ A **conflict-driven clause-learning (CDCL) SAT solver** for solving the satisfia
 -  **Phase saving**
 -  **LBD-based** learnt clause deletion
 
-
-
+## Restart Policies
+-  None
+-  Fixed
+-  Geometric
+-  Luby
+-  A dynamic LBD moving-average policy in the style of Glucose
 
 # Setup
 
