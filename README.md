@@ -1,4 +1,4 @@
-Sat Solver for testing Restart Policies
+A conflict-driven clause-learning solver for solving the satisfiability problem, used to test restart policies.
 
 # Setup
 
