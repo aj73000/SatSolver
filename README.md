@@ -35,42 +35,15 @@ project/
         └── solver.h
 ```
 
-## 1. Download the solver
+## 1. Download the solver folder
 
-The Python code does not requires the "SatSolver" exe files to run but if you want to run tests then you will need one. This can be done by either compiling the 2 cpp and 1 .h file into an exe or by taking the .exe provided.
+The Python code does not requires the "SatSolver" exe files to run but if you want to run tests then you will need one.
 
-> **Important:** You only need to download the `SatSolver` folder containing the C++ solver and python GUI. You do **not** need to download the entire repository.
+## 2. Compile the solver
 
-Place the downloaded `SatSolver` folder inside the `cpp` folder:
+Compile from the C++ source code
 
-```text
-project/
-└── cpp/
-    └── SatSolver/
-```
-
-## 2. Use the precompiled solver
-
-The `SatSolver` folder may already contain a precompiled `solver.exe`.
-
-If `solver.exe` is present, you can use it directly without compiling the C++ source code.
-
-```text
-cpp/
-└── SatSolver/
-    ├── solver.exe
-    ├── main.cpp
-    ├── solver.cpp
-    └── solver.h
-```
-
-In this case, no C++ compiler is required.
-
-## 3. Compile the solver yourself
-
-Alternatively, you can compile the C++ source code yourself instead of using the provided `solver.exe`.
-
-From the `SatSolver` directory, compile:
+From the `SatSolver/Cpp` directory, compile:
 
 ```bash
 g++ main.cpp solver.cpp -o solver.exe
@@ -86,7 +59,7 @@ SatSolver/
 └── solver.h
 ```
 
-You can then run the Python project using the newly compiled `solver.exe`.
+You can then run the Python main using the newly compiled `solver.exe`.
 
 ## 4. Running the Python project
 
