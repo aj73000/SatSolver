@@ -1,5 +1,14 @@
 A conflict-driven clause-learning solver for solving the satisfiability problem, used to test restart policies.
 
+# Features
+```text
+two-watched-literal unit propagation
+First-UIP conflict analysis 
+VSIDS binary max-heap for variable ordering
+phase saving
+LBD-based learnt clause deletion.
+```
+
 # Setup
 
 This project consists of a Python interface and a C++ solver.
