@@ -1,3 +1,5 @@
+Sat Solver for testing Restart Policies
+
 # Setup
 
 This project consists of a Python interface and a C++ solver.
