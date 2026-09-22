@@ -22,28 +22,26 @@ A **conflict-driven clause-learning (CDCL) SAT solver** for solving the satisfia
 This project consists of a Python interface and a C++ solver.
 
 ```text
-project/
+Solver/
 ├── python/
 │   ├── main.py
 │   └── solver_interface.py
 │
 └── cpp/
-    └── SatSolver/
-        ├── solver.exe
-        ├── main.cpp
-        ├── solver.cpp
-        └── solver.h
+    ├── main.cpp
+    ├── solver.cpp
+    └── solver.h
 ```
 
 ## 1. Download the solver folder
 
-The Python code does not requires the "SatSolver" exe files to run but if you want to run tests then you will need one.
+The Python code does not requires the "SatSolver" exe file to run but if you want to run tests then you will need one.
 
 ## 2. Compile the solver
 
 Compile from the C++ source code
 
-From the `SatSolver/Cpp` directory, compile:
+From the `Cpp` directory, compile:
 
 ```bash
 g++ main.cpp solver.cpp -o solver.exe
@@ -52,7 +50,7 @@ g++ main.cpp solver.cpp -o solver.exe
 This will create:
 
 ```text
-SatSolver/
+Cpp/
 ├── solver.exe
 ├── main.cpp
 ├── solver.cpp
