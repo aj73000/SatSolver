@@ -50,7 +50,7 @@ from solver_interface import (
     to_dimacs,
 )
 
-DEFAULT_EXE = "/home/arthur/Documents/Cpp/SATSolver/cmake-build-debug/SATSolver"
+DEFAULT_EXE = ""
 
 
 # ===========================================================================
