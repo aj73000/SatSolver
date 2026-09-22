@@ -47,6 +47,8 @@ From the `Cpp` directory, compile:
 g++ main.cpp solver.cpp -o solver.exe
 ```
 
+or compile through an IDE by creating a project with a copy of the `Cpp` directory files.
+
 This will create:
 
 ```text
