@@ -1,13 +1,15 @@
-A conflict-driven clause-learning solver for solving the satisfiability problem, used to test restart policies.
+# CDCL SAT Solver
 
-# Features
-```text
-two-watched-literal unit propagation
-First-UIP conflict analysis 
-VSIDS binary max-heap for variable ordering
-phase saving
-LBD-based learnt clause deletion.
-```
+A **conflict-driven clause-learning (CDCL) SAT solver** designed for experimenting with and evaluating **restart policies**.
+
+## Features
+
+-  **Two-watched-literal** unit propagation
+-  **First-UIP** conflict analysis
+-  **VSIDS** variable ordering using a binary max-heap
+-  **Phase saving**
+-  **LBD-based** learnt clause deletion
+
 
 # Setup
 
