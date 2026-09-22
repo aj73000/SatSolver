@@ -1,6 +1,6 @@
 # CDCL SAT Solver
 
-A **conflict-driven clause-learning (CDCL) SAT solver** designed for experimenting with and evaluating **restart policies**.
+A **conflict-driven clause-learning (CDCL) SAT solver** for solving the satisfiability problem, used to test **restart policies**.
 
 ## Features
 
@@ -9,6 +9,8 @@ A **conflict-driven clause-learning (CDCL) SAT solver** designed for experimenti
 -  **VSIDS** variable ordering using a binary max-heap
 -  **Phase saving**
 -  **LBD-based** learnt clause deletion
+
+
 
 
 # Setup
